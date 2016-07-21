@@ -4,7 +4,7 @@ RSpec.describe WelcomeController, type: :controller do
   context '#index' do
     it 'assigns value' do
       get :index
-      expect(assigns(:value)).to eq('world')
+      expect(assigns(:value)).to eq('people')
     end
   end
 end
